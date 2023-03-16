@@ -1,0 +1,22 @@
+[
+	{
+		"title": "Porta Sahumo",
+		"description": "de ceramica",
+		"category": "decoracion",
+		"price": "2500",
+		"thumbnail": "uploads\\1672285482291-portasahumeriohanuman.jpg",
+		"code": "AA2F",
+		"status": "15",
+		"id": 1
+	},
+	{
+		"title": "mazo gatitos",
+		"description": "48 cartas",
+		"category": "tarot",
+		"price": "4500",
+		"thumbnail": "uploads\\1672285849242-oraculodelgato.jpg",
+		"code": "AA45",
+		"status": "10",
+		"id": 2
+	}
+]

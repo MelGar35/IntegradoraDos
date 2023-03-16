@@ -1,0 +1,35 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.5",
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
+    "handlebars": "^4.7.7",
+    "mongoose": "^6.9.0",
+    "mongoose-paginate-v2": "^1.7.1",
+    "multer": "^1.4.5-lts.1",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MelGar35/ServidorExpressGarcia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MelGar35/ServidorExpressGarcia/issues"
+  },
+  "homepage": "https://github.com/MelGar35/ServidorExpressGarcia#readme",
+  "description": "npm init -y; npm i express mongoose handlebars express-handlebars\r .gitIgnore node_modules\r Package json type module y dev con nombre del server.js\r Npm i @handlebars/allow-prototype-access\r Npm i mongoose-pagínate-v2"
+}

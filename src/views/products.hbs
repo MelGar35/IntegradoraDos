@@ -1,0 +1,50 @@
+<div>
+  <a href="" class="btn btn-danger m-2" id="logout"> Logout </a>
+  <div class="p2">
+    <table class="table">
+      <thead class="table-dark">
+        <tr>
+          <th> Title </th>
+          <th> Description </th>
+          <th> Category </th>
+          <th> Price </th>
+          <th> Stock </th>
+          <th> Comprar </th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+        
+      </tbody>
+    </table>
+  </div>
+
+  <hr>
+
+  <div>
+    <h2> User </h2>
+    <p id="user"></p>
+  </div>
+
+  <div>
+        <a href="/products?page={{result.prevPage}}&&limit=">Prev</a>
+        <a href="/products?page={{result.nextPage}}">Next</a>
+    </div>
+<h5>
+      {{ result.page }} / {{ result.totalPages }}
+    </h5>
+    <br>
+ 
+</div>
+
+<div>
+    <h3 class="m-3">Formulario de Productos</h3>
+    <form class="row p-3" action="/api/products" method="POST">
+      <input class="form-control m-1" type="text" name="title" placeholder="Title...">
+      <input class="form-control m-1" type="text" name="description" placeholder="Description...">
+      <input class="form-control m-1" type="number" name="price" placeholder="Price...">
+      <input class="form-control m-1" type="number" name="stock" placeholder="Stock...">
+      <input type="submit" value="Send" class="btn btn-primary">
+    </form>
+  </div>
+
+<script src="js/main.js"></script>
